@@ -1,8 +1,9 @@
 # PromptHub Coding Challenge
 
+
 ## Summary
 
-Your task is to implement a simple web application with a Laravel backend and Vue frontend that takes a user input and runs it through a two-step LLM prompt. User input will consist of two fields:
+Your task is to implement a simple web application with a Laravel backend and Vue frontend that takes a user input and runs it through a two-step LLM prompt then render the output. User input will consist of two fields:
 
 1. A question posed by the user
 2. A modifier that will transform the output of the first prompt in some way defined by the user _(ex. translate to another language or rephrase to use a particular tone or accent)_.
@@ -12,12 +13,14 @@ This could be done all within a single prompt, but we'd like to see how you arch
 The boilerplate should include everything you need to get started, including all required dependencies and some example controllers and pages using Inertia. We'll provide links to the relevant documentation in
 the [Resources](#resources) section of the readme.
 
+
 ## Requirements
 
-- Create a simple UI that accepts the 2 text inputs from the user _(the boilerplate project comes with TailwindCSS installed)_.
+- Create a simple UI that accepts the 2 text inputs from the user and then shows the LLM output at each stage _(the boilerplate project comes with TailwindCSS installed)_.
 - Architect any migrations, models, and relationships you'll need to solve the challenge.
-- The web app should be stateful, i.e. it should be specific to the currently logged in user _(credentials will be seeded into the boilerplate project)_, and at least the prompt output should persist across page reloads.
+- The web app should be stateful, i.e. it should be specific to the currently logged-in user _(credentials will be seeded into the boilerplate project)_, and at least the prompt output should persist across page reloads.
 - Implement a two-step prompt using the user inputs _(OpenAI SDK for Laravel is installed and we've provided you with a temporary OpenAI API key)_.
+- Render the LLM output at each stage of the process.
 - Write a Pest test to validate the happy path of at least one of your controller actions.
 - When you're done, submit you work as a Pull Request on boilerplate repo.
 
@@ -28,6 +31,7 @@ particular implementation could be potentially confusing, but try to let your co
 
 If you can't complete all tasks within a reasonable amount of time, do as much as you feel accurately conveys your skills as a developer and include a written explanation of how you would go about implementing the
 remainder of the tasks if you had time in the PR description.
+
 
 ---
 
