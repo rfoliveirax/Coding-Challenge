@@ -9,8 +9,8 @@ Your task is to implement a simple web application with a Laravel backend and Vu
 
 This could be done all within a single prompt, but we'd like to see how you architect a simple system that chains two prompts together.
 
-The boilerplate should include everything you need to get started, including the dependencies you should need, and some example controllers and pages using Inertia. We'll provide links to the relevant documentation in
-the Resources section of the readme.
+The boilerplate should include everything you need to get started, including all required dependencies and some example controllers and pages using Inertia. We'll provide links to the relevant documentation in
+the [Resources](#resources) section of the readme.
 
 ## Requirements
 
@@ -82,6 +82,6 @@ your preferences.
 ### Notes
 
 - Inertia renders pages based on their file name and position in the folder hierarchy under `resources/js/Pages`. Reference the Breeze controllers and pages as examples.
-- You can define global Inertia props in the `HandleInertiaRequest` middleware
+- You can define global Inertia props in the `HandleInertiaRequest` middleware.
 - The .env file will be committed to the boilerplate repo in encrypted form. If you need to edit it, we can provide the key to decrypt it.
 - Feel free to reach out if you have any problems or questions!
