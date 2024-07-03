@@ -41,9 +41,10 @@ remainder of the tasks if you had time in the PR description.
 
 ### Installation
 
-1. Install composer dependencies `composer install`
-2. Install NPM dependencies `npm i`
-3. Run migrations and seeders `art migrate:fresh --seed`
+1. Clone the boilerplate repo `git clone https://github.com/PromptHubUS/Coding-Challenge.git`
+2. Install composer dependencies `composer install`
+3. Install NPM dependencies `npm i`
+4. Run migrations and seeders `art migrate:fresh --seed`
 
 ### Usage
 
